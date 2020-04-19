@@ -218,6 +218,7 @@ p {
     margin-top: 40px;
     font-size: 19px;
     line-height: 24px;
+    text-align: justify;
 }
 
 .choose-us-item {
@@ -248,6 +249,7 @@ p {
 .choose-us-item p {
     color: #727272;
     font-size: 15px;
+    text-align: justify;
 } 
 /*============= Testimonial ===============*/
 .testimonial {

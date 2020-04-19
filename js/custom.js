@@ -193,14 +193,18 @@ $(document).ready(function() {
 });
 
 
+   //  Disable right click and other things
+$(document).ready(function() {
 
+    'use strict';
 
-
-
-
-
-
-
+    $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+    })
+    $(".code").on("contextmenu", function(e) {
+        return false;
+    })
+})
 
 
 
